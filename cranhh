@@ -48,16 +48,16 @@ $ngay = date("d-m-Y");
 \033[0;97m║\033[1;97m❥ \033[0;92mFb:\033[1;97mfacebook.com/doandinh2004        \033[1;97m          ║
 \033[0;97m╚════════════════════════════════════════════════╝\n"; 
   
- 
- 
+$key1=file_get_contents("https://run.mocky.io/v3/470834b5-2319-4ec7-ba6c-9a357f22f059");
+ $key2=file_get_contents("https://run.mocky.io/v3/470834b5-2319-4ec7-ba6c-9a357f22f059");
 @system('clear');
  print $banner;
-
-
+for($v=0;$v<= 10;$v++){ print "\033[1;97m- ";usleep(15000); print "\033[1;97m- ";usleep(15000); } print "\033[1;97m- ";usleep(15000); print "\033[1;97m-";usleep(15000); print"\n";
+print $luc."Am Sorry Vì Sự Chậm Trễ Này$trang =[[\n";
 for($v=0;$v<= 10;$v++){ print "\033[1;97m- ";usleep(15000); print "\033[1;97m- ";usleep(15000); } print "\033[1;97m- ";usleep(15000); print "\033[1;97m-";usleep(15000); print"\n";
 print $luc."Vượt Link Cũng Là 1 Hình Thức Donate$trang -_-\n";
 for($v=0;$v<= 10;$v++){ print "\033[1;97m- ";usleep(15000); print "\033[1;97m- ";usleep(15000); } print "\033[1;97m- ";usleep(15000); print "\033[1;97m-";usleep(15000); print"\n";
-print $luc."Link Lấy Key Free:$trang  https://link1s.com/AFJK\n";
+print $luc."Link Lấy Key Free:$trang http://bblink.com/keyfree24h\n";
 for($v=0;$v<= 10;$v++){ print "\033[1;97m- ";usleep(15000); print "\033[1;97m- ";usleep(15000); } print "\033[1;97m- ";usleep(15000); print "\033[1;97m-";usleep(15000); print"\n";
 for($j = 4;$j> 0;$j--){
   print $luc."Chuyển Hướng Đến Trang Lấy Key Sau: $do [$den $j$do ]";
@@ -65,7 +65,7 @@ for($j = 4;$j> 0;$j--){
   print "\r";
   print "                                          \r";
 }
-system("termux-open-url  https://link1s.com/AFJK");
+system("termux-open-url  http://bblink.com/keyfree24h");
 print $luc."Nhập Key: $vang";
 $nhapkey = trim(fgets(STDIN));
 if ($nhapkey == $key1){
